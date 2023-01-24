@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class First_Program {
@@ -8,7 +8,7 @@ public class First_Program {
 		Scanner scanner = new Scanner(System.in);
 		//	int a = scanner.nextInt();
 		//	String string = scanner.next();
-			
+			//int[] student;
 			//System.out.println(a + "    " + string);
 		//Integer student[] =  new Integer[5];
 		String student[] =  new String[5];
@@ -17,6 +17,7 @@ public class First_Program {
 			student[i] = scanner.next();
 		for(int i=0;i< student.length; i++)
 		System.out.println(student[i]);
+		//Arrays.sort(student);
 	}
 
 }
