@@ -10,9 +10,11 @@ public class First_Program {
 		//	String string = scanner.next();
 			
 			//System.out.println(a + "    " + string);
-		Integer student[] =  new Integer[5];
+		//Integer student[] =  new Integer[5];
+		String student[] =  new String[5];
 		for(int i=0;i< student.length; i++)
-			student[i] = scanner.nextInt();
+			//student[i] = scanner.nextInt();
+			student[i] = scanner.next();
 		for(int i=0;i< student.length; i++)
 		System.out.println(student[i]);
 	}
